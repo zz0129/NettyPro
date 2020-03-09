@@ -12,7 +12,7 @@ import java.util.concurrent.Executors;
 
 public class BIOServer {
 
-    public static void main(String args[]) throws IOException {
+    public static void main(String[] args) throws IOException {
 
         ExecutorService newCachedThreadPool = Executors.newCachedThreadPool();
 

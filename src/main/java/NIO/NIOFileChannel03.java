@@ -8,7 +8,7 @@ import java.nio.channels.FileChannel;
 
 public class NIOFileChannel03 {
 
-    public static void main(String args[]) throws IOException {
+    public static void main(String[] args) throws IOException {
         FileInputStream fileInputStream =  new FileInputStream("1.txt");
         FileChannel fileInputChannel = fileInputStream.getChannel();
 

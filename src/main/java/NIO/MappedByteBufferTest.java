@@ -7,7 +7,7 @@ import java.nio.channels.FileChannel;
 
 public class MappedByteBufferTest {
 
-    public static void main(String args[]) throws IOException {
+    public static void main(String[] args) throws IOException {
         RandomAccessFile randomAccessFile = new RandomAccessFile("1.txt", "rw");
         FileChannel fileChannel = randomAccessFile.getChannel();
 

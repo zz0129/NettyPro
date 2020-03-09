@@ -9,7 +9,7 @@ import java.util.Arrays;
 
 public class ScatterAndGatheringTest {
 
-    public static void main(String args[]) throws IOException {
+    public static void main(String[] args) throws IOException {
 
         //使用ServerSocket和Socket网络
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();

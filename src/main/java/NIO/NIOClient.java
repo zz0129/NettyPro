@@ -7,7 +7,7 @@ import java.nio.channels.SocketChannel;
 
 public class NIOClient {
 
-    public static void main(String args[]) throws IOException {
+    public static void main(String[] args) throws IOException {
 
         SocketChannel socketChannel = SocketChannel.open();
         socketChannel.configureBlocking(false);

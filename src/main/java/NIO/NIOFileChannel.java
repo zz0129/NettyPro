@@ -7,7 +7,7 @@ import java.nio.channels.FileChannel;
 
 public class NIOFileChannel {
 
-    public static void main(String args[]) throws IOException {
+    public static void main(String[] args) throws IOException {
         String str = "hello, 王林玉";
         FileOutputStream fileOutputStream = new FileOutputStream("temp.txt");
         FileChannel fileChannel = fileOutputStream.getChannel();
